@@ -1,8 +1,8 @@
 clear;
 clc;
 
-I1 = imread('L0031.BMP');%读取左右图片
-I2 = imread('R0031.BMP');
+I1 = imread('L0037.BMP');%读取左右图片
+I2 = imread('R0037.BMP');
 figure
 imshowpair(I1, I2, 'montage');
 title('Original Images');
