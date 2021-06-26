@@ -1,8 +1,8 @@
 clear;
 clc;
 
-I1 = imread('L0005.BMP');%读取左右图片
-I2 = imread('R0005.BMP');
+I1 = imread('L1.bmp');%读取左右图片
+I2 = imread('R1.bmp');
 %figure
 %imshowpair(I1, I2, 'montage');
 %title('Original Images');
@@ -25,6 +25,7 @@ for k = 1:28
     line([0 3908],[k*50 k*50],'color','g','LineWidth',1);
 end
 imwrite(im_Merge,'im_Merge.jpg');%保存图像
+
  
  
 
