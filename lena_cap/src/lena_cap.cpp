@@ -9,7 +9,7 @@ using namespace cv;
 
 int main()
 {
-	for (int a = 1; a < 24; a++)
+	for (int a = 1; a < 25; a++)
 	{
 		string name = format("img/cap/%d.bmp", a);
 		string name_L = format("img/left/L%d.bmp", a);
